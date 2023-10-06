@@ -91,7 +91,7 @@ class BoardController: NSObject,
   private func applyThemeSettings(with settings: [String: Any]) {
       if let themeString = settings[kWordThemeKey] as? String,
          let theme = WordTheme(rawValue: themeString) {
-          goalWord = WordGenerator. generateGoalWord(for: theme)
+          goalWord = WordGenerator.generateGoalWord(with: theme)
       }
   }
   
@@ -105,8 +105,11 @@ class BoardController: NSObject,
       }
   }
     func handleGuess(_ guessedWord: String) {
-        if guessedWord != goalWord && isAlienWordle {
-            goalWord = WordGenerator.generateGoalWord(for: currentTheme)
+        if guessedWord != goalWord.joined() && isAlienWordle {
+            let rawTheme = SettingsManager.shared.settingsDictionary[kWordThemeKey] as! String
+            let theme = WordTheme(rawValue: rawTheme)!
+            goalWord = WordGenerator.generateGoalWord(with: theme)
         }
     }
+
 }
