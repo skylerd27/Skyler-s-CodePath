@@ -18,6 +18,8 @@
 		9F47E8292AD42F89005B1270 /* ViewModel_TrivaGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F47E8282AD42F89005B1270 /* ViewModel_TrivaGame.swift */; };
 		9F47E82B2AD43035005B1270 /* QuestionStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F47E82A2AD43035005B1270 /* QuestionStruct.swift */; };
 		9F47E82D2AD4327E005B1270 /* TriviaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F47E82C2AD4327E005B1270 /* TriviaView.swift */; };
+		9F54A6312ADE3B36001CE115 /* TriviaQuestionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54A6302ADE3B36001CE115 /* TriviaQuestionService.swift */; };
+		9F54A6332ADE3B8D001CE115 /* TriviaQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54A6322ADE3B8D001CE115 /* TriviaQuestion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		9F47E8282AD42F89005B1270 /* ViewModel_TrivaGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel_TrivaGame.swift; sourceTree = "<group>"; };
 		9F47E82A2AD43035005B1270 /* QuestionStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionStruct.swift; sourceTree = "<group>"; };
 		9F47E82C2AD4327E005B1270 /* TriviaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaView.swift; sourceTree = "<group>"; };
+		9F54A6302ADE3B36001CE115 /* TriviaQuestionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaQuestionService.swift; sourceTree = "<group>"; };
+		9F54A6322ADE3B8D001CE115 /* TriviaQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaQuestion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +110,9 @@
 				9926AB2329DFAE1400860532 /* AppDelegate.swift */,
 				9F47E8282AD42F89005B1270 /* ViewModel_TrivaGame.swift */,
 				9F47E82C2AD4327E005B1270 /* TriviaView.swift */,
+				9F54A6302ADE3B36001CE115 /* TriviaQuestionService.swift */,
 				9F47E82A2AD43035005B1270 /* QuestionStruct.swift */,
+				9F54A6322ADE3B8D001CE115 /* TriviaQuestion.swift */,
 				9926AB2529DFAE1400860532 /* SceneDelegate.swift */,
 				9926AB2929DFAE1400860532 /* Main.storyboard */,
 				9926AB2C29DFAE1400860532 /* Assets.xcassets */,
@@ -266,6 +272,8 @@
 			files = (
 				9F47E82B2AD43035005B1270 /* QuestionStruct.swift in Sources */,
 				9F47E8292AD42F89005B1270 /* ViewModel_TrivaGame.swift in Sources */,
+				9F54A6332ADE3B8D001CE115 /* TriviaQuestion.swift in Sources */,
+				9F54A6312ADE3B36001CE115 /* TriviaQuestionService.swift in Sources */,
 				9926AB2429DFAE1400860532 /* AppDelegate.swift in Sources */,
 				9F47E82D2AD4327E005B1270 /* TriviaView.swift in Sources */,
 				9926AB2629DFAE1400860532 /* SceneDelegate.swift in Sources */,
